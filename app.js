@@ -167,7 +167,7 @@ game.catchPokemon = function(pokemonObj) {
 game.catchPokemon(pokemon[96]);
 game.catchPokemon(pokemon[99]);
 
-console.log(game.items);
+//console.log(game.items);
 
 /*
 Exercise 12
@@ -242,7 +242,7 @@ game.partyCount = function(){
   return pokemonNumbers;
 }
 
-console.log(game.partyCount());
+//console.log(game.partyCount());
 
 /*
 Exercise 15
@@ -256,4 +256,15 @@ game.gyms.forEach(gym => {
     gym.completed = true;
   }
 });
-console.log(game.gyms);
+//console.log(game.gyms);
+
+/*
+Exercise 16
+1. Log the entire `game` object to the console. Take a moment to review the changes you've made throughout the exercises.
+
+
+Solve Exercise 16 here:
+*/
+
+console.log(game);
+
